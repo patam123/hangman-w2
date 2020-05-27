@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /* height: 100vh; */
+  pointer-events: none;
+  background-position: center;
+  border: white;
+  border-width: 15px;
+  border-style: solid;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  background-image: url(images/hangman.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.App-link {
+  color: black;
+}
+
+.button-container{
+  width: 350px;
+}
+
+/* .button-container button{
+  box-sizing: border-box;
+  background-color: #ffc107;
+  box-shadow: 0px 5px #ff9800;
+  color: white;
+  border-style: none;
+  width: 13%;
+  border-radius: 20%;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 1px;
+  margin-top: 0px;
+} */
+
+.buttons{
+  box-sizing: border-box;
+  background-color: #ffc107;
+  box-shadow: 0px 5px #ff9800;
+  color: white;
+  border-style: none;
+  width: 13%;
+  border-radius: 7px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 1px;
+  margin-top: 0px;
+}
+.clicked-btn{
+  background-color: #bdbdbd;
+  box-sizing: border-box;
+  box-shadow: 0px 5px #8f8f8f;
+  color: white;
+  border-style: none;
+  width: 13%;
+  border-radius: 7px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 1px;
+  margin-top: 0px;
+}
+
+#lines{
+  font-size: 50px;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
