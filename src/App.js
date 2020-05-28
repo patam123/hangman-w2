@@ -3,9 +3,9 @@ import hanger from "./images/hanger.jpg";
 import "./App.css";
 import {randomWord} from "./words.js";
 
-const word = (x) => {
+const drawLines = (word) => {
   let lines = "";
-  for (let i = 0; i < x.length; i++) {
+  for (let i = 0; i < word.length; i++) {
     lines += "_ ";
   }
   return lines;
@@ -37,7 +37,7 @@ const onReset = () => {
     disabledButtons[0].disabled = false;
     disabledButtons[0].className = "buttons";
   }
-  document.getElementById("lines").innerText =  word(randomWord());
+  document.getElementById("lines").innerText =  drawLines(randomWord());
 };
 
 function App() {
@@ -47,7 +47,7 @@ function App() {
         <h1>Hänga gubbe</h1>
         <p>Spelet går ut på att gissa ord som datorn valt ut slumpmässigt</p>
         <img src={hanger} alt="" className="App-logo"></img>
-        <p id="lines">{word(randomWord())}</p>
+        <p id="lines">{drawLines(randomWord())}</p>
         <p>Antal gissningar: 0</p>
         <div className="button-container">{buttons}</div>
         <button onClick={onReset}>Återställ</button>
