@@ -1,4 +1,4 @@
-const words = ["hängmatta", "sommarlov", "havsutsikt", "pilsner", "vårbris"];
+const words = ["hängmatta", "sommarlov", "havsutsikt", "pilsner", "vårbris", "katt", "midsommaraftonsnatt"];
 
 
 export function randomWord(){

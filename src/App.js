@@ -11,39 +11,10 @@ const word = (x) => {
   return lines;
 };
 
-const alfabet = [
-  "a",
-  "b",
-  "c",
-  "d",
-  "e",
-  "f",
-  "g",
-  "h",
-  "i",
-  "j",
-  "k",
-  "l",
-  "m",
-  "n",
-  "o",
-  "p",
-  "q",
-  "r",
-  "s",
-  "t",
-  "u",
-  "v",
-  "w",
-  "x",
-  "y",
-  "z",
-  "å",
-  "ä",
-  "ö",
-];
 
-let buttons = alfabet.map((elem) => (
+const alfabet = "abcdefghijklmnopqrstuvwxyzåäö";
+
+let buttons = alfabet.split("").map((elem) => (
   <button
     key={elem}
     className="buttons"
