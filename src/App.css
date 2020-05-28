@@ -3,7 +3,6 @@
 }
 
 .App-logo {
-  /* height: 100vh; */
   pointer-events: none;
   background-position: center;
   border: white;
@@ -11,11 +10,7 @@
   border-style: solid;
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
+
 
 .App-header {
   background-color: #282c34;
@@ -38,20 +33,6 @@
 .button-container{
   width: 350px;
 }
-
-/* .button-container button{
-  box-sizing: border-box;
-  background-color: #ffc107;
-  box-shadow: 0px 5px #ff9800;
-  color: white;
-  border-style: none;
-  width: 13%;
-  border-radius: 20%;
-  margin-left: 2px;
-  margin-right: 2px;
-  margin-bottom: 1px;
-  margin-top: 0px;
-} */
 
 .buttons{
   box-sizing: border-box;
@@ -84,11 +65,3 @@
   font-size: 50px;
 }
 
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
